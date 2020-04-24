@@ -231,6 +231,11 @@ img {
   font-size: 1.6rem;
   height: 5vh;
 }
+@media (max-width: 500px) {
+  body {
+    background: red;
+  }
+}
 .Navi {
   display: flex;
   justify-content: space-evenly;
